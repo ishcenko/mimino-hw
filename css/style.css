@@ -48,6 +48,27 @@ img {
     margin-right: auto;
     padding-top: 164px;
 }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(to right,
+                    rgba(0, 0, 0, 0.65),
+                    rgba(0, 0, 0, 0.65)),
+                url(../image/bg-hero-index@2x.jpg);
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+            background-image: linear-gradient(to right,
+                    rgba(0, 0, 0, 0.65),
+                    rgba(0, 0, 0, 0.65)),
+                url(../image/bg-hero-index@3x.jpg);
+        }
+}
 
 .title-hero {
     font-family: 'Film P3';
@@ -88,6 +109,11 @@ img {
     margin-bottom: 144px;
 }
 
+.buttons-hero {
+    position: absolute;
+    bottom: 64px;
+    right: 85px;
+}
 .hero-button {
     background-color: rgba(0, 0, 0, 0.4);
     font-family: 'Montserrat';
@@ -106,7 +132,6 @@ img {
 .hero-btn {
     flex-wrap: wrap;
     justify-content: end;
-    margin-bottom: 61px;
     margin-right: 0;
     display: flex;
     gap: 60px;
