@@ -31,6 +31,7 @@ img {
 }
 
 .hero {
+    position: relative;
     max-width: 1280px;
     height: 720px;
     background-image: linear-gradient(to right,
@@ -81,12 +82,12 @@ img {
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 144px;
 }
 
 .hero-button {
     background-color: rgba(0, 0, 0, 0.4);
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -101,9 +102,50 @@ img {
 
 .hero-btn {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: end;
     margin-bottom: 61px;
     margin-right: 0;
     display: flex;
     gap: 60px;
 }
+.map-address {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    width: 285px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 44px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.maps-address {
+    position: absolute;
+    bottom: 64px;
+    left: 85px;
+}
+.icon-picture {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+
+
+/* width: 210px;
+height: 47px;
+flex-wrap: nowrap;
+align-items: center;
+margin-left: auto;
+padding: 2px 5px;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.25;
+display: flex; */
