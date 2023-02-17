@@ -1,234 +1,16 @@
-body {
-    line-height: 1;
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-p,
-h1,
-h2,
-h3 {
-    margin: 0;
-}
-
-li {
-    list-style: none;
-}
-ul {
-    margin: 0;
-    padding-left: 0;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-}
-
-.container {
-    width: 1280px;
-    margin: 0 auto;
-    padding-left: 85px;
-    padding-right: 85px;
-}
-
+/* Hero */
 .hero {
     position: relative;
     max-width: 1280px;
     height: 720px;
-    background-image: linear-gradient(to right,
-            rgba(0, 0, 0, 0.65),
-            rgba(0, 0, 0, 0.65)),
-            url(../image/bg-hero-index.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 164px;
-}
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(to right,
-                    rgba(0, 0, 0, 0.65),
-                    rgba(0, 0, 0, 0.65)),
-                url(../image/bg-hero-index@2x.jpg);
-    }
 }
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-            background-image: linear-gradient(to right,
-                    rgba(0, 0, 0, 0.65),
-                    rgba(0, 0, 0, 0.65)),
-                url(../image/bg-hero-index@3x.jpg);
-        }
-}
-
-.title-hero {
-    font-family: 'Film P3';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 128px;
-    line-height: 138px;
-    text-transform: uppercase;    
-    letter-spacing: 0.3em;
-    color: #FFFFFF;
-    margin-bottom: 32px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.subtitle-hero {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 64px;
-    text-align: center;
-}
-
-.heading-hero {
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 41px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;
-    margin-bottom: 144px;
-}
-
-.buttons-hero {
-    position: absolute;
-    bottom: 64px;
-    right: 85px;
-}
-.hero-button {
-    background-color: rgba(0, 0, 0, 0.4);
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;    
-    color: #F3C653;
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    padding: 14px 35px;
-    display: block;
-    min-width: 258px;
-}
-
-.hero-btn {
-    flex-wrap: wrap;
-    justify-content: end;
-    margin-right: 0;
-    display: flex;
-    gap: 60px;
-}
-.map-address {
-    position: relative;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.01em;
-    color: #E5E5E5;
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
-    width: 285px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 44px;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-.maps-address {
-    position: absolute;
-    bottom: 64px;
-    left: 85px;
-}
-.icon-picture {
-    position: absolute;
-    top: 16px;
-    left: 10px;
-}
-
-
-
-.rest-hero {
-    position: relative;
-    max-width: 1280px;
-    height: 720px;
-    background-image: linear-gradient(to right,
-            rgba(0, 0, 0, 0.65),
-            rgba(0, 0, 0, 0.65)),
-        url(../image/bg-rest.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 164px;
-}
-
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .rest-hero {
-        background-image: linear-gradient(to right,
-                rgba(0, 0, 0, 0.65),
-                rgba(0, 0, 0, 0.65)),
-            url(../image/bg-rest@2x.jpg);
-    }
-}
-
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .rest-hero {
-        background-image: linear-gradient(to right,
-                rgba(0, 0, 0, 0.65),
-                rgba(0, 0, 0, 0.65)),
-            url(../image/bg-rest@3x.jpg);
-    }
-}
-
-
-/* width: 210px;
-height: 47px;
-flex-wrap: nowrap;
-align-items: center;
-margin-left: auto;
-padding: 2px 5px;
-font-size: 12px;
-font-weight: 400;
-line-height: 1.25;
-display: flex; */
-
-
-
-/* Hero */
 .rest-hotel {
     position: relative;
-    max-width: 1280px;
-    height: 720px;
     background-image: linear-gradient(to right,
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.65)),
-        url(../img/hero-bgi/bg-hero-index.jpg);
+        url(../img/bg-hero-index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -244,7 +26,7 @@ display: flex; */
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../img/hero-bgi/bg-hero-index@2x.jpg);
+            url(../img/bg-hero-index@2x.jpg);
     }
 }
 
@@ -255,7 +37,7 @@ display: flex; */
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../img/hero-bgi/bg-hero-index@3x.jpg);
+            url(../img/bg-hero-index@3x.jpg);
     }
 }
 
@@ -294,7 +76,6 @@ display: flex; */
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 144px;
 }
 
 .buttons-hero {
@@ -316,6 +97,10 @@ display: flex; */
     padding: 14px 35px;
     display: block;
     min-width: 258px;
+}
+
+.hero-button:hover {
+    background-color: #FFFFFF;
 }
 
 .hero-btn {
@@ -356,6 +141,7 @@ display: flex; */
     position: absolute;
     top: 16px;
     left: 10px;
+    fill: #F3C653;
 }
 
 
@@ -369,7 +155,7 @@ display: flex; */
     background-image: linear-gradient(to right,
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.65)),
-        url(../img/hero-bgi/bg-rest.jpg);
+        url(../img/bg-rest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -385,7 +171,7 @@ display: flex; */
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../img/hero-bgi/bg-hero-index@2x.jpg);
+            url(../img/bg-rest@2x.jpg);
     }
 }
 
@@ -396,31 +182,150 @@ display: flex; */
         background-image: linear-gradient(to right,
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
-            url(../img/hero-bgi/bg-hero-index@3x.jpg);
+            url(../img/bg-rest@3x.jpg);
     }
 }
 
+/* hotel-hero */
+.hotel-hero {
+    position: relative;
+    max-width: 1280px;
+    height: 720px;
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url(../img/bg-hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 164px;
+}
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hotel-hero {
+        background-image: linear-gradient(to right,
+                rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../img/bg-hotel@2x.jpg);
+    }
+}
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hotel-hero {
+        background-image: linear-gradient(to right,
+                rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../img/bg-hotel@3x.jpg);
+    }
+}
 
+/* room-hero */
+.room-hero {
+    position: relative;
+    max-width: 1280px;
+    height: 720px;
+    background-image: url(../img/bg-hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 524px;
+    padding-left: 85px;
+    margin-bottom: 24px;
+    /* padding-top: 164px; */
+}
 
-<section class="hero rest-hotel"><div class="container"><h1 class="title-hero">міміно</h1><h2 class="subtitle-hero">Ресторанно-готельний комплекс</h2><p class="heading-hero">смак життя 24/7</p><div class="maps-address"><a class="map-address" href="https://www.google.com/maps/place/Marshala+Biryuzova+St,+15,+Poltava,+Poltavs'ka+oblast,+36000/@49.599194,34.5265463,17z/data=!4m6!3m5!1s0x40d82601f3347a5f:0x36f3f9aeec44a6a!8m2!3d49.599194!4d34.5265463!16s%2Fg%2F1tggm4y1"
-target="_blank"
-rel="nofollow noopener noreferrer"><svg class="icon-picture" width="24" height="24"><use href="../img/sprite-icons.svg#location"></use></svg>Україна,
-м. Полтава,
-вул. Маршала Бірюзова,
-15</a></div><div class="buttons-hero"><ul class="hero-btn"><li><button class="hero-button" type="button">Забронювати столик</button></li><li><button class="hero-button" type="button">Забронювати номер</button></li></ul></div></div></section>
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .room-hero {
+        background-image: url(../img/bg-hotel@2x.jpg);
+    }
+}
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .room-hero {
+        background-image: url(../img/bg-hotel@3x.jpg);
+    }
+}
 
+.title-room {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
 
+.text-room {
+    max-width: 400px;
+    /* height: 83px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
 
+.room-btn {
+    position: absolute;
+    right: 85px;
+    bottom: 66px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #F3C653;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 14px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 14px;
+    /* width: 232px; */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}
 
+.room-btn:hover {
+    background-color: #FFFFFF;
+}
 
+.right-svg {
+    position: absolute;
+    top: 412px;
+    right: 85px;
+    background: rgba(0, 0, 0, 0.65);
+    fill: #FFFFFF;
+}
 
+.right-svg:hover {
+    fill: #F3C653;
+}
 
-<section class="hero rest-hero"><div class="container"><h1 class="title-hero">міміно</h1><h2 class="subtitle-hero">Ресторан</h2><p class="heading-hero">смак життя 24/7</p><div class="maps-address"><a class="map-address" href="https://www.google.com/maps/place/Marshala+Biryuzova+St,+15,+Poltava,+Poltavs'ka+oblast,+36000/@49.599194,34.5265463,17z/data=!4m6!3m5!1s0x40d82601f3347a5f:0x36f3f9aeec44a6a!8m2!3d49.599194!4d34.5265463!16s%2Fg%2F1tggm4y1"
-target="_blank"
-rel="nofollow noopener noreferrer"><svg class="icon-picture" width="24" height="24"><use href="../img/sprite-icons.svg#location"></use></svg>Україна,
-м. Полтава,
-вул. Маршала Бірюзова,
-15</a></div><div class="buttons-hero"><ul class="hero-btn"><li><button class="hero-button" type="button">Забронювати столик</button></li><li><button class="hero-button" type="button">Переглянути меню</button></li></ul></div></div></section>
+.left-svg {
+    position: absolute;
+    top: 412px;
+    left: 85px;
+    background: rgba(0, 0, 0, 0.65);
+    fill: #FFFFFF;
+}
+
+.left-svg:hover {
+    fill: #F3C653;
+}
